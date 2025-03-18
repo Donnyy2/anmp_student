@@ -26,6 +26,8 @@ class StudentListFragment : Fragment() {
             .get(ListViewModel::class.java)
         viewModel.refresh()
 
+        //tes 123
+
         binding.recView.layoutManager = LinearLayoutManager(context)
         binding.recView.adapter = adapter
 
