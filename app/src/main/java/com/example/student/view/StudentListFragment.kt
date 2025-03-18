@@ -30,6 +30,8 @@ class StudentListFragment : Fragment() {
 
         //BUG FIX
 
+        //BUG FIX2
+
         binding.recView.layoutManager = LinearLayoutManager(context)
         binding.recView.adapter = adapter
 
