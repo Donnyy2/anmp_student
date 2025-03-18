@@ -28,6 +28,8 @@ class StudentListFragment : Fragment() {
 
         //tes 123
 
+        //Fitur Baru
+
         binding.recView.layoutManager = LinearLayoutManager(context)
         binding.recView.adapter = adapter
 
